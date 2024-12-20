@@ -28,4 +28,44 @@ public class Cat {
                 ", возраст - "+ age+ ".";
     }
 
+    public String getBreed(){
+        return breed;
+    }
+
+    public void setBreed(String breed){
+        this.breed = breed;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public void setColor(String color){
+        this.color = color;
+    }
+
+    public String getEyesColor(){
+        return eyesColor;
+    }
+
+    public void setEyesColor(String eyesColor){
+        this.eyesColor= eyesColor;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
 }

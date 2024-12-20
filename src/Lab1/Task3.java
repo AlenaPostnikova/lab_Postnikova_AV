@@ -4,7 +4,7 @@ public class Task3 {
     public static void main(String[] args){
 
         int number = 10500;
-        int result = (number/10)/10;
+        double result= (number/10.0)/10.0;
 
         System.out.println(result);
     }

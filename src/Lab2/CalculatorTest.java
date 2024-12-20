@@ -22,10 +22,10 @@ public class CalculatorTest {
 //        long a = scanner.nextLong();
 //        long b = scanner.nextLong();
 
-        System.out.println("Результат сложение чисел = "+Calculator.fn_sum(a,b));
-        System.out.println("Результат умножения чисел = "+Calculator.fn_multiply(a,b));
-        System.out.println("Результат вычитания чисел = "+Calculator.fn_minus(a,b));
-        System.out.println("Результат деления чисел = "+Calculator.fn_div(a,b));
+        System.out.println("Результат сложение чисел = "+Calculator.fnSum(a,b));
+        System.out.println("Результат умножения чисел = "+Calculator.fnMultiply(a,b));
+        System.out.println("Результат вычитания чисел = "+Calculator.fnMinus(a,b));
+        System.out.println("Результат деления чисел = "+Calculator.fnDiv(a,b));
 
     }
 }
