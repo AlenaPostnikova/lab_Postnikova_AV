@@ -15,7 +15,7 @@ public class Part2 {
 
         System.out.println("Заполните массив значениями: ");
 
-        for (int i=0; i<lengthArr; i++){
+        for (int i = 0; i < lengthArr; i++){
             intArr[i] = scanner.nextInt();
         }
 

@@ -9,8 +9,12 @@ public class Main {
 
 
 //        System.out.println(Palindrome.methodPalindrome(new StringBuilder("дед")));
-//        System.out.println(Palindrome.methodPalindrome(new StringBuilder("пень")));
-//        System.out.println(Palindrome.methodPalindrome(new StringBuilder("")));
+//        System.out.println(Palindrome.methodPalindrome(new StringBuilder("Топот")));
+
+
+        StringBuilder str = new StringBuilder();
+        str = null;
+        System.out.println(Palindrome.methodPalindrome(str));
 
 //        System.out.println(Censor.censor("Этот контрразведчик-бяка десятки раз пытался донести на вас начальству, а какой-то бяка вычеркивал из его доносов все подробности."));
 //
